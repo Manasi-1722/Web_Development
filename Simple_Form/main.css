@@ -1,0 +1,82 @@
+body {
+    height: 100vh;
+    background-color: #c9c9ee;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: Roboto, sans-serif;
+    font-size: 1.07rem;
+}
+
+h1 {
+    font-size: 2.5rem;
+    font-weight: normal;
+    margin: 10px; 
+}
+
+input {
+    border-radius: 5px;
+    border: solid 1px #c9c9;
+    margin-bottom: 10px;
+    height: 30px;
+}
+
+input:hover,
+input:focus {
+    cursor: pointer;
+    outline: 2px solid #9c9cec;
+}
+
+label{
+    font-size: 20px;
+    margin: 10px;
+}
+
+button{
+    cursor: pointer;
+    border-radius: 5px;
+    border: solid 2px pink;
+    background-color: pink;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 10px;
+    padding-inline: 20px;
+    margin-top: 10px;
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+button:hover{
+    background-color: pink;
+}
+
+button:focus,
+button:active{
+    outline: solid 1px #9c9cec;
+    background-color: azure;
+}
+
+a{
+    color: #9c9cec;
+    font-weight: normal;
+}
+
+.form-card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 15px;
+    background-color: white;
+    width: 600px;
+    height: 500px;
+    box-shadow: 2.8px 2.8px 2.2px rgba(0,0,0,0.02),
+    6.7px 6.7px 5.3px rgba(0,0,0,0.028),
+    12.5px 12.5px 10px rgba(0,0,0,0.035),
+    22.3px 22.3px 17.9px rgba(0,0,0,0.042),
+    41.8px 41.8px 33.4px rgba(0,0,0,0.05),
+    100px 100px 80px rgba(0,0,0,0.07),
+
+}
